@@ -5,8 +5,13 @@ The example allows you to take measurements and to listen to them by using the P
 # UART mode
 The HC-SR04 has a way to communicate with a controller by using its UART mode.
 My specific HC-SR04 only asks to have:
+
 M1 -> OPEN
+
 M2 -> SHORTED
+
+Other ultrasonic sensors may have different configurations. Make sure to read your model manual.
+
 
 # Connection to the Raspberry Pi
 The specifics on how to setup the serial port of the Pi are in the source code.
